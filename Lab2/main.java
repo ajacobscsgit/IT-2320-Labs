@@ -69,6 +69,9 @@ class Lab2 {
     Stack<String> bookStack = new Stack<String>();
 
     // 13. Push the following book titles onto bookStack: "Clean Code", "Design Patterns", "Pragmatic Programmer"
+    bookStack.push("Clean Code");
+    bookStack.push("Design Patterns");
+    bookStack.push("Pragmatic Programmer");
 
     // 14. pop() 1 book off the stack. Display it's value
     String poppedBook = bookStack.pop();
@@ -81,6 +84,7 @@ class Lab2 {
     bookStack.push("Web DB Technologies");
 
     // 17. Use the peek() method to view the top book on the stack
+    System.out.println("Top book after push: " + bookStack.peek());
 
     // 18. Search for "Design Patterns" in the stack. Display the results of the search.
     System.out.println("Search result for Design Patterns: " + bookStack.search("Design Patterns"));
